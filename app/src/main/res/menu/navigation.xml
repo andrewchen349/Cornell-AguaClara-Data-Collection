@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/nav_drawer_about"
+        android:title="About" />
+
+    <item
+        android:id="@+id/navigation_forms"
+        android:icon="@drawable/nav_drawer_forms"
+        android:title="Forms" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/nav_drawer_setting"
+        android:title="Settings" />
+</menu>

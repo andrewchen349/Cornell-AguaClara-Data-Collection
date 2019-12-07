@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="95dp"
+            android:fontFamily="@font/hind_bold"
+            android:text="| AguaClara"
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/aguaclaralogo"
+            android:layout_width="110dp"
+            android:layout_height="131dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/aguaclaralogo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/header">
+        <TextView
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who We Are"
+            android:textSize="20dp"
+            android:fontFamily="@font/hind_semibold"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/title_who"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_title"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_who"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="100dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/hind_light"
+            android:text="@string/AguaClara_Desc"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/line"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@android:drawable/divider_horizontal_dark"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:background="@color/colorBlue"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:layout_below="@+id/desc"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/globe"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/globe"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="150dp"/>
+
+        <ImageView
+            android:id="@+id/github"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/github"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="200dp"/>
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/fb"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="250dp" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/me12"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="1dp">
+
+        <include
+            android:id="@+id/include2"
+            layout="@layout/bottomnav"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

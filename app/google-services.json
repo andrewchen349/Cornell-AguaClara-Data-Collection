@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "22053796269",
+    "firebase_url": "https://aguaclara-post.firebaseio.com",
+    "project_id": "aguaclara-post",
+    "storage_bucket": "aguaclara-post.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22053796269:android:d0fd60f146a4f12bab4924",
+        "android_client_info": {
+          "package_name": "com.andre.aguaclarapost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22053796269-bu6fdr6hgs2vufi3iprbro8bmbl0jg49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andre.aguaclarapost",
+            "certificate_hash": "2550dd93f29b8a7fca682a0907ad7915f14927e8"
+          }
+        },
+        {
+          "client_id": "22053796269-ktd8orre3rjr3nln4s37gt2f6t9p8h98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIOYgK1W4qG31LKEJ5BQdRJ2qLHPcqNQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22053796269-ktd8orre3rjr3nln4s37gt2f6t9p8h98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
